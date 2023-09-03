@@ -1,0 +1,27 @@
+*{
+    font-family: sans-serif;
+    background-color: #272727;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,p,a,li{
+    padding: 10px;
+    background-color: transparent;
+    /* Padding ist der Abstand innerhalb Elemente */
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    /* Hier geben wir an, welche eigenschaften das Design von allen <p> elementen in der .footer klasse haben sollen */
+    color: white;
+}
